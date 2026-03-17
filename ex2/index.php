@@ -10,9 +10,9 @@
         <pre>
             <h1>Soma</h1>
             <label for="">Digite Primeiro numero</label>
-            <input type="text" name="numero" id="">
+            <input type="number" name="numero" id="">
             <label for="">Digite Segundo numero</label>
-            <input type="text" name="numero2" id="">
+            <input type="number" name="numero2" id="">
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </pre>
