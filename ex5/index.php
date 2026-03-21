@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <H1> F = C * 9/5 + 32</H1>
-    <form action="temperatura.php" method="post">
+    <form action="dobro.php" method="post">
         <pre>
-            <label for="">DIgite A Temperatura Atual Em Celsius</label>
-            <input type="number" name="celsius" id="">
+            <label for="">Digite um numero para virar o dobro...</label>
+            <input type="number" name="dobro" id="">
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
+            
         </pre>
-
-
-
     </form>
     
 </body>
