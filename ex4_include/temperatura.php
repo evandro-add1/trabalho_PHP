@@ -2,6 +2,6 @@
 include "funcao.php";
 $temperatura = (int) $_POST["celsius"];
 
-$resultado = fahrenheit($temperatura);
+$resultado = temperatura($temperatura);
 echo "Sua temperatura em Fahrenheit: ".$resultado;
 ?>
